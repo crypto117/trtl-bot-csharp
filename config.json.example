@@ -5,7 +5,7 @@
   "botPrefix": ".",
   "botMessageCache": 100,
   "coinName": "RhodiumCoin",
-  "coinSymbol": "TRTL",
+  "coinSymbol": "RHOX",
   "coinUnits": 100,
   "coinAddressLength": 98,
   "coinAddressPrefix": "Rhod",
