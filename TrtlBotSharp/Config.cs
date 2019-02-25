@@ -43,7 +43,7 @@ namespace RhoxBotSharp
                 walletHost = (string)Config["127.0.0.1"];
                 walletPort = (int)Config["8004"];
                 walletRpcPassword = (string)Config["1234"];
-                walletUpdateDelay = (int)Config["walletUpdateDelay"];
+                walletUpdateDelay = (int)Config["500"];
             }
         }
 
