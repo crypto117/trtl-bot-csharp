@@ -29,7 +29,7 @@
   //"marketDisallowedServers": [
     388915017187328002
   ],
-  "daemonHost": "public.turtlenode.io",
+  "daemonHost": "104.248.211.207",
   "daemonPort": 8010,
   "walletHost": "127.0.0.1",
   "walletPort": 8070,
