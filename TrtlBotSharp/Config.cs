@@ -18,7 +18,7 @@ namespace RhoxBotSharp
                 JObject Config = JObject.Parse(File.ReadAllText(configFile));
                 databaseFile = (string)Config["databaseFile"];
                 logLevel = (int)Config["2"];
-                botToken = (string)Config["NTMzNDc2NTAyNDAzMTUzOTIw.D1Xxwg.m1Z4VoRsHajO6k1ZeJhemFkc58Y"];
+                botToken = (string)Config["NTMzNDc2NTAyNDAzMTUzOTIw.D1Xxwg.m1Z4Vo"];
                 botPrefix = (string)Config["*"];
                 botMessageCache = (int)Config["botMessageCache"];
                 coinName = (string)Config["rhodiumcoin"];
