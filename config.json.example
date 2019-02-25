@@ -1,7 +1,7 @@
 {
   "databaseFile": "RHOX.db",
   "logLevel": 2,
-  "botToken": "{BOT_TOKEN}",
+  "botToken": "{NTMzNDc2NTAyNDAzMTUzOTIw.D1Xxwg.m1Z4VoRsHajO6k1ZeJhemFkc58Y}",
   "botPrefix": ".",
   "botMessageCache": 100,
   "coinName": "RhodiumCoin",
