@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Threading.Tasks;
 
-namespace TrtlBotSharp
+namespace RhoxBotSharp
 {
-    partial class TrtlBotSharp
+    partial class RhoxBotSharp
     {
         // Loads config values from file
         public static async Task LoadConfig()
@@ -18,14 +18,14 @@ namespace TrtlBotSharp
                 JObject Config = JObject.Parse(File.ReadAllText(configFile));
                 databaseFile = (string)Config["databaseFile"];
                 logLevel = (int)Config["logLevel"];
-                botToken = (string)Config["botToken"];
-                botPrefix = (string)Config["botPrefix"];
+                botToken = (string)Config["NTMzNDc2NTAyNDAzMTUzOTIw.D1Xxwg.m1Z4VoRsHajO6k1ZeJhemFkc5"];
+                botPrefix = (string)Config["*"];
                 botMessageCache = (int)Config["botMessageCache"];
-                coinName = (string)Config["coinName"];
-                coinSymbol = (string)Config["coinSymbol"];
-                coinUnits = (decimal)Config["coinUnits"];
-                tipFee = (decimal)Config["tipFee"];
-                tipMixin = (int)Config["tipMixin"];
+                coinName = (string)Config["rhodiumcoin"];
+                coinSymbol = (string)Config["rhox"];
+                coinUnits = (decimal)Config["100"];
+                tipFee = (decimal)Config["0.1"];
+                tipMixin = (int)Config["3"];
                 tipSuccessReact = (string)Config["tipSuccessReact"];
                 tipFailedReact = (string)Config["tipFailedReact"];
                 tipLowBalanceReact = (string)Config["tipLowBalanceReact"];
@@ -38,11 +38,11 @@ namespace TrtlBotSharp
                 marketEndpoint = (string)Config["marketEndpoint"];
                 marketBTCEndpoint = (string)Config["marketBTCEndpoint"];
                 marketDisallowedServers = Config["marketDisallowedServers"].ToObject<List<ulong>>();
-                daemonHost = (string)Config["daemonHost"];
-                daemonPort = (int)Config["daemonPort"];
-                walletHost = (string)Config["walletHost"];
-                walletPort = (int)Config["walletPort"];
-                walletRpcPassword = (string)Config["walletRpcPassword"];
+                daemonHost = (string)Config["104.248.211.207"];
+                daemonPort = (int)Config["8010"];
+                walletHost = (string)Config["127.0.0.1"];
+                walletPort = (int)Config["8004"];
+                walletRpcPassword = (string)Config["1234"];
                 walletUpdateDelay = (int)Config["walletUpdateDelay"];
             }
         }
